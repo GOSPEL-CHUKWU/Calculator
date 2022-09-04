@@ -17,33 +17,44 @@
   </head>
   <body>
     <section class="calculator">
-      <div class="top"></div>
-      <div class="input-number">
-        <input type="text" class="input" placeholder="0" />
-      </div>
-      <div class="container">
-        <button class="red trash">
-          <i class="fa-solid fa-trash-arrow-up"></i>
-        </button>
-        <button class="one">1</button>
-        <button class="two">2</button>
-        <button class="three">3</button>
-        <button class="green divide"><i class="fa-solid fa-divide"></i></button>
-        <button class="four">4</button>
-        <button class="five">5</button>
-        <button class="six">6</button>
-        <button class="green multiply">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-        <button class="seven">7</button>
-        <button class="eight">8</button>
-        <button class="nine">9</button>
-        <button class="green plus"><i class="fa-solid fa-plus"></i></button>
-        <button class="green minus"><i class="fa-solid fa-minus"></i></button>
-        <button class="zero">0</button>
-        <button class="green equal-to">
-          <i class="fa-solid fa-equals"></i>
-        </button>
+      <div class="background">
+        <div class="input-number">
+          <input type="text" class="calculating-num" placeholder="4 * 4" />
+          <input type="text" class="input" placeholder="16" />
+        </div>
+        <div class="container">
+          <button><h4 class="btn-size skyblue clear">C</h4></button>
+          <button>
+            <p class="btn-size delete skyblue">&LeftTeeArrow;</p>
+          </button>
+          <button><h4 class="btn-size skyblue divide">/</h4></button>
+          <button><p class="btn-size percentage skyblue">%</p></button>
+          <button><p class="btn-size num-bg one">1</p></button>
+          <button><p class="btn-size num-bg two">2</p></button>
+          <button><p class="btn-size num-bg three">3</p></button>
+          <button>
+            <i class="btn-size skyblue multiply fa-solid fa-xmark"></i>
+          </button>
+          <button><p class="btn-size num-bg four">4</p></button>
+          <button><p class="btn-size num-bg five">5</p></button>
+          <button><p class="btn-size num-bg six">6</p></button>
+          <button>
+            <i class="btn-size skyblue minus fa-solid fa-minus"></i>
+          </button>
+          <button><p class="btn-size num-bg seven">7</p></button>
+          <button><p class="btn-size num-bg eight">8</p></button>
+          <button><p class="btn-size num-bg nine">9</p></button>
+
+          <button>
+            <i class="btn-size fa-solid fa-plus skyblue plus"></i>
+          </button>
+          <button><p class="btn-size num-bg double-zero">00</p></button>
+          <button><p class="btn-size num-bg zero">0</p></button>
+          <button><h2 class="btn-size full-stop num-bg">.</h2></button>
+          <button>
+            <i class="btn-size skyblue equal-to fa-solid fa-equals"></i>
+          </button>
+        </div>
       </div>
     </section>
   </body>

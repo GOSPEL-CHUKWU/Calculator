@@ -7,53 +7,91 @@
 }
 body {
   background-color: rgba(0, 0, 0, 0.918);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .calculator {
-  margin: 5% 35% 0 34%;
-  padding: 25px;
-  background-color: white;
-  height: 32rem;
-  border-radius: 28px;
+  display: flex;
+  justify-content: center;
 }
-.top {
+.background {
+  background-color: black;
+  font: white;
+  border-radius: 8px;
+  height: 32rem;
+  width: 50%;
+  margin-top: 4rem;
+  box-shadow: 0px -1px 3px white;
+}
+/* .top {
   background-color: black;
   height: 0.5rem;
   width: 7rem;
   border-radius: 10px;
   margin: 0 0 1.5rem 35%;
-}
+} */
 .input-number {
-  margin: 1rem 0 3rem 0.7rem;
+  margin: 3rem 0 1rem 0.7rem;
 }
 .input {
-  font-size: 2.5rem;
-  width: 96.5%;
+  font-size: 2.2rem;
+  width: 90%;
   background-color: black;
   color: white;
-  padding: 15px;
-  border-radius: 10px;
   height: 4.5rem;
+  text-align: end;
+  outline: none;
+  font-family: initial;
+}
+.calculating-num {
+  font-size: 1rem;
+  font-family: initial;
+  width: 90%;
+  height: 1rem;
+  text-align: end;
+  background-color: black;
+  color: white;
+  outline: none;
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 0.2fr);
+  gap: 10px;
+  justify-content: center;
+  background-color: black;
+  box-shadow: 0px -1px 3px white;
+  padding: 20px 10px 30px 10px;
+  border-radius: 0 0 8px 8px;
 }
 button {
-  font-size: 25px;
-  font-weight: 600;
-  margin: 15px;
-  background-color: rgb(9, 9, 126);
-  padding: 8px;
-  border-radius: 8px;
-  color: white;
-  text-align: center;
+  /* font-size: 25px;
+  margin: 5px;
+  padding: 5px;*/
+  background-color: black;
+  font-weight: 300;
+  font-size: 17px;
 }
 button:hover {
   opacity: 0.8;
 }
-.red {
-  background-color: red;
+.btn-size {
+  border-radius: 48%;
+  height: 3.2rem;
+  width: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.green {
-  background-color: rgb(9, 80, 9);
+
+.num-bg {
+  background-color: rgb(36, 32, 32);
+  color: white;
+}
+.skyblue {
+  background-color: rgb(7, 131, 180);
+  font-weight: 900;
+}
+i {
+  font-size: 17px;
 }
