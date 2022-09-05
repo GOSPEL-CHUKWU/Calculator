@@ -1,9 +1,17 @@
 * {
-  border: 0;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Dancing Script', 'Gill Sans', 'Gill Sans MT', Calibri,
     'Trebuchet MS', cursive, sans-serif;
+}
+a,
+button,
+input,
+select,
+textarea {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 body {
   background-color: rgba(0, 0, 0, 0.918);
@@ -19,40 +27,32 @@ body {
   background-color: black;
   font: white;
   border-radius: 8px;
-  height: 32rem;
-  width: 50%;
+  height: 31.8rem;
+  width: 150%;
   margin-top: 4rem;
   box-shadow: 0px -1px 3px white;
 }
-/* .top {
-  background-color: black;
-  height: 0.5rem;
-  width: 7rem;
-  border-radius: 10px;
-  margin: 0 0 1.5rem 35%;
-} */
 .input-number {
   margin: 3rem 0 1rem 0.7rem;
 }
-.input {
-  font-size: 2.2rem;
-  width: 90%;
-  background-color: black;
-  color: white;
-  height: 4.5rem;
-  text-align: end;
-  outline: none;
-  font-family: initial;
-}
-.calculating-num {
+.current-input {
   font-size: 1rem;
-  font-family: initial;
-  width: 90%;
   height: 1rem;
-  text-align: end;
+  margin-bottom: 0.5rem;
+  width: 90%;
   background-color: black;
   color: white;
-  outline: none;
+  font-family: initial;
+  text-align: end;
+}
+.answer-screen {
+  font-size: 2.2rem;
+  height: 3.5rem;
+  width: 90%;
+  background-color: black;
+  color: white;
+  font-family: initial;
+  text-align: end;
 }
 .container {
   display: grid;
@@ -61,7 +61,7 @@ body {
   justify-content: center;
   background-color: black;
   box-shadow: 0px -1px 3px white;
-  padding: 20px 10px 30px 10px;
+  padding: 30px 10px 27.6px 10px;
   border-radius: 0 0 8px 8px;
 }
 button {
