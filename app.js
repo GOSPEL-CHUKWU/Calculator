@@ -1,3 +1,5 @@
+'use strict';
+
 const currentInput = document.querySelector('.current-input');
 const answerScreen = document.querySelector('.answer-screen');
 const clearAll = document.querySelector('.clear');
